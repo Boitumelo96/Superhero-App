@@ -1,0 +1,53 @@
+a{
+font-family : Helvetica, sans-serif;
+
+background-color: rgb(27, 53, 102);
+
+}
+a:hover{
+background-color: rgb(175, 49, 10);
+color : #ffffff; 
+transform: scale(1.1);
+transition: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.gallery img{
+width: 100%;
+}
+#menu{
+width:100%;
+height:40px;
+background-color: rgb(43, 88, 172);
+padding-top: 12px;
+padding-left: 12px;
+justify-content: space-between;
+position: fixed;
+}
+#menu a{
+color:#e0dbdb;
+font-family: Helvetica, sans-serif;
+font-size: 18px;
+text-decoration:none;
+font-weight: 800px;
+padding-left: 20px;
+padding-right: 20px;
+}
+#menu a:hover{
+color: #6d88b9;
+}
+body{
+    background-color: rgb(45, 77, 136);
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+body.dark-mode{
+    background-color: #121212;
+    color: #f0f0f0;
+}
+#menu.dark-mode{
+    background-color: #121212;
+    color: #f0f0f0;
+}
+button{
+    color: rgb(231, 231, 243);
+    background-color: rgb(46, 96, 189);
+}
